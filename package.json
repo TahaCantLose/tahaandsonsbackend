@@ -1,0 +1,32 @@
+{
+  "name": "e-commerce-2",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "engines": {
+    "node": "18.x"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "vercel-build": "node ./build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongodb": "^5.4.0",
+    "mongoose": "^6.12.0",
+    "nodemon": "^2.0.22",
+    "react-router-dom": "^5.3.4",
+    "use-reducer-logger": "^1.0.2"
+  },
+  "devDependencies": {
+    "@vercel/node": "^3.0.7"
+  }
+}
