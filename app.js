@@ -38,4 +38,4 @@ app.post('/api/signup', async (req, res) => {
 app.all('*', (req, res) => {
   res.send("Working");
 });
-app.listen(5000, () => console.log("Server is listening on port 5000"));
+app.listen(6000, () => console.log("Server is listening on port 6000"));
