@@ -52,5 +52,5 @@ jobs:
         with:
           app-name: 'tahaandsons'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_B93908A142574EC897745842D3388B09 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8DCF1B469E4D4090800D99585627321D }}
           package: .
